@@ -7,7 +7,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 driver = webdriver.Chrome(ChromeDriverManager().install())
 
 
-bot = telebot.TeleBot('5282810966:AAGF56iHpL8sIRRwtPPVElSTc-knEq3OL5M')
+bot = telebot.TeleBot('')
 
 
 @bot.message_handler(commands=['start'])
